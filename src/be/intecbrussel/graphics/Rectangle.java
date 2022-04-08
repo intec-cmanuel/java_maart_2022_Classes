@@ -7,6 +7,17 @@ public class Rectangle{
     private int x;
     private int y;
 
+    public Rectangle() {
+        this(1,1);
+    }
+
+    public Rectangle(int height, int width) {
+        setHeight(height);
+        setWidth(width);
+        setX(50);
+        setY(50);
+    }
+
     public void setHeight(int height) {
         if (height < 0) {
             this.height = -height;
