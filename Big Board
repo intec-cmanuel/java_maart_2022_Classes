@@ -1,0 +1,10 @@
+Player:
+    String name;
+    double money;
+    int age;
+    Statistics statistics;
+
+    public Player(name,age)
+
+    addMoney(amount);
+    subtractMoney(amount);
